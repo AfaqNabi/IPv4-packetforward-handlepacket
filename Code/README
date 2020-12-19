@@ -1,0 +1,10 @@
+Lab_PacketForward-HandlePacket
+
+Code
+    > handlePacket.s : write your solution to the lab in this file
+    > common.s : code that loads an IP packet into memory, calls your handlePacket 
+        function
+    > checksum.s: paste your code from the the previous lab into this file excluding the 
+        line '.include "common.s". Use the checksum function in your solution. This file
+        will be not be used in grading, it will be replaced with a checksum.s file with a 
+        correct implementation of checksum.s
